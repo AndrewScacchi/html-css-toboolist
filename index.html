@@ -4,10 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Toboolist</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<div class="container">
+    <!-- Header&Logo section -->
+    <header>
+        <img src="img/Logo.png" alt="Toobolist Logo">
+        <h1>Tobolist</h1>
+    </header>
+    <!-- yes i know Navbar outside header? -->
+    <nav class="navbar rounded">
+        <button class="btn btn_active">Add Task</button>
+        <button class="btn btn_passive">Add section</button>
+    </nav>
+
+    <!-- Main Section -->
+
+    <main class="rounded">
+        <section>
+            <h2>&#9660; New Task</h2>
+            <ul>
+                <li>Quarterly Newsletter <span class="mrk mrk_edit">Editorial</span></li>  
+            </ul>
+        </section>
+        <section>
+            <h2>&#9660;Today</h2>
+            <ul>
+                <li>Recruiting blog post <span class="mrk mrk_edit">Editorial</span></li>
+                <li>Mobile App Launch <span class="mrk mrk_goal">Q1 Goals</span></li>
+                <li>Interview John H. <span class="mrk mrk_recruit">Recruiting</span></li>
+                <li>Summit update to mobile storefronts <span class="mrk mrk_mobil">Mobile</span></li>
+            </ul>
+        </section>
+        <section>
+            <h2>&#9660; Upcoming</h2>
+            <ul>
+                <li>Schedule meeting with Alex</li>
+                <li>Homepage Refresh <span class="mrk mrk_web">Website</span></li>
+                <li>Onboard new Sales team member <span class="mrk mrk_sales">Sales</span></li>
+                <li>Review editorial calendar <span class="mrk mrk_edit">Editorial</span></li>
+            </ul>
+        </section>
+
+
+
+    </main>
+</div>
 </body>
 </html>

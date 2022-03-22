@@ -1,0 +1,62 @@
+/* Global Settings */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+
+header, .navbar, main {
+    background-color: white;
+    padding: 20px 60px;
+    margin: 5px auto;
+}
+.navbar, main {
+    width: 70%;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+/* Header Settings */
+h1, header img {
+    display: inline-block;
+}
+
+/* List Settings */
+
+section ul li {
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Marker Section */
+
+/* .mrk {
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 0.6em;
+}
+.mrk_edit {
+    background-color: lightblue;
+}
+.mrk_goal {
+    background-color: purple;
+}
+.mrk_recruit {
+    background-color: cyan;
+}
+.mrk_mobil {
+    background-color: orange;
+} */
