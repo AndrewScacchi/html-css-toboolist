@@ -82,7 +82,7 @@ ul {
 
 /* Marker Section */
 
-/* .mrk {
+.mrk {
     color: white;
     padding: 10px 15px;
     border-radius: 15px;
@@ -99,4 +99,10 @@ ul {
 }
 .mrk_mobil {
     background-color: orange;
-} */
+} 
+.mrk_web{
+    background-color: violet;
+}
+.mrk_sales {
+    background-color:darkkhaki;
+}
