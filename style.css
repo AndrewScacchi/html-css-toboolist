@@ -11,23 +11,56 @@ body {
     min-height: 100vh;
 }
 
-header, .navbar, main {
+.navbar, main {
     background-color: white;
     padding: 20px 60px;
     margin: 5px auto;
+}
+header {
+    background-color: white;
+    padding: 20px 10px;
+    margin-bottom: 50px;
 }
 .navbar, main {
     width: 70%;
 }
 
 .rounded {
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /* Header Settings */
-h1, header img {
+h1, h1 img {
     display: inline-block;
 }
+h1 {
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0 20px;
+}
+h1 img {
+    vertical-align: middle;
+    line-height: 5em;
+    height: 1.5em;
+}
+
+/* Buttons Setting */
+
+.btn {
+    padding: 10px 10px;
+    font-weight: bold;
+}
+.btn_active {
+    color: white;
+    background-color: lightseagreen;
+    border: 2px solid lightseagreen;
+}
+.btn_passive {
+    color: grey;
+    border: 2px solid grey;
+    background-color: white;
+}
+
 
 /* List Settings */
 
@@ -35,10 +68,17 @@ section ul li {
     font-size: 1.5em;
     line-height: 2em;
 }
-
 ul {
     list-style-type: none;
 }
+
+.green_tick, .red_cross {
+    width: 30px;
+    margin: 0;
+    vertical-align: middle;
+    line-height: 2em;
+}
+
 
 /* Marker Section */
 
